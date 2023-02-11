@@ -1,0 +1,23 @@
+.skills {
+    height: 100vh;
+    background-color: #83bb83;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
+
+
+.commonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.mySkills {
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}

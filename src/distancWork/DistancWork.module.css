@@ -1,0 +1,30 @@
+.distanceBlock {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-color: navajowhite;
+}
+
+.commonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid;
+
+}
+
+.common {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+
+.variants {
+}
+
+.submitBtn {
+
+}

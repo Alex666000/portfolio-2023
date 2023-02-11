@@ -1,0 +1,20 @@
+.project {
+    width: 450px;
+    background-color: #83bb83;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    height: 100%;
+    background-color: #8c8787;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewBtn {
+    background-color: cornflowerblue;
+    padding: 10px 20px;
+}
+
