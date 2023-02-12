@@ -1,20 +1,58 @@
 .project {
     width: 450px;
-    background-color: #83bb83;
+    background: #252527;
     display: flex;
     flex-direction: column;
 }
 
 .image {
-    height: 100%;
+    height: 300px;
     background-color: #8c8787;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.image:before {
+    position: absolute;
+    content: '';
+    background-color: black;
+    /* растягиваем блок со всех сторон на всю ширину */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
 }
 
 .viewBtn {
-    background-color: cornflowerblue;
+    background-color: #eeeef5;
     padding: 10px 20px;
+    position: relative;
+    z-index: 0;
+}
+.projectInfo {
+    padding:  25px 20px;
+}
+
+.projectTitle {
+    font: 700 40px/1.2 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+    color: #fff;
+    /*цвет для всех h задать ДЗ*/
+}
+
+.description {
+    fontfont-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff
 }
 

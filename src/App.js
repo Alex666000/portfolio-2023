@@ -3,9 +3,9 @@ import Header from "./header/Header";
 import Main from "./main/Main";
 import Skills from "./skills/skills";
 import Projects from "./my-projects/Projects";
-import {DistanceWork} from "./distancWork/DistancWork";
 import {Contacts} from "./contacts/Contacts";
 import Footer from "./footer/Footer";
+import Hire from "./hire/Hire";
 
 function App() {
     return (
@@ -14,7 +14,7 @@ function App() {
             <Main/>
             <Skills/>
             <Projects/>
-            <DistanceWork/>
+            <Hire/>
             <Contacts/>
             <Footer/>
         </div>

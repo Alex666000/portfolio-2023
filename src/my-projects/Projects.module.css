@@ -1,8 +1,7 @@
 .projectsBlock {
-    /*height: 100vh;*/
     display: flex;
     justify-content: center;
-    background-color: pink;
+    background-color: #1f1f20;
 }
 
 .projectsContainer {
@@ -11,19 +10,21 @@
     flex-wrap: nowrap
 }
 
-.title {
-    background-color: #8c8787;
-}
-
 .projects {
     width: 100%;
-    border: 1px solid;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-
+    justify-content: center;
+    margin-top: 30px;
+    align-items: flex-start;
 }
 
+/*до width: 1124px применить такой стиль в таком то блоке*/
+@media screen and (min-width: 1124px) {
+    .projects {
+        justify-content: space-between;
+    }
+}
 
 
 

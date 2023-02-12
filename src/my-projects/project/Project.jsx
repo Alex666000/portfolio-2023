@@ -4,11 +4,14 @@ import s from "./Project.module.css";
 const Project = (props) => {
     return (
         <div className={s.project}>
-            <div className={s.image}>
+            <div className={s.image} style={props.style}>
                 <a className={s.viewBtn}>Смотреть</a>
             </div>
-            <h3>{props.title}</h3>
-            <span className={s.description}>{props.description}</span>
+            <div className={s.projectInfo}>
+                <h3 className={s.projectTitle}>{props.title}</h3>
+                <span className={s.description}>{props.description}</span>
+            </div>
+
         </div>
     )
 
